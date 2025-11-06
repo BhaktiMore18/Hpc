@@ -71,3 +71,5 @@ int main(int argc, char **argv)
     MPI_Finalize();
     return 0;
 }
+// mpicxx bfs_mpi.cpp -o bfs_mpi
+// mpirun -np 4 ./bfs_mpi
